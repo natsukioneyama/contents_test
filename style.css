@@ -5,3 +5,28 @@
         background-color: blue;
     }
 }
+
+
+.info_txt {
+    text-decoration: none;
+    color: black;
+    position: fixed;
+    font-size: 0.8rem;
+    z-index: 1;
+    padding: 2px;
+    opacity: 0;
+    
+    &:hover {
+        opacity: 1;
+    }
+ 
+} 
+
+a {
+    color: black;
+    position: fixed;
+    text-decoration: none;
+    padding: 2px;
+    font-size: 0.8rem;
+    z-index: 1;
+}
